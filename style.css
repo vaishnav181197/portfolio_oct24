@@ -1,0 +1,107 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header>img {
+    width: 200px;
+}
+
+
+.link {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    transition: font-size 1s;
+
+}
+
+.link:hover{
+    font-size: 50px;
+}
+
+.linkgrp {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.intro>img{
+    height: 450px;
+    margin: 0px auto 0px auto;
+}
+
+.introcnt>h1{
+    color: black;
+    font-size: 60px;
+}
+
+.introcnt>div{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.introcnt>a{
+    display: inline-block;
+    margin-top:20px ;
+    text-decoration: none;
+    background-color: rgb(58, 58, 222);
+    color: white;
+    padding: 20px;
+    border-radius:5px ;
+    transition: background-color 400ms ;
+}
+
+.introcnt>a:hover{
+    background-color: rgb(16, 16, 230);
+}
+
+.about{
+    margin-top: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.about>div{
+    margin-top: 50px;
+}
+
+.abtcnt>h3{
+    color: blue;
+    font-weight: bolder;
+}
+
+.abtcnt>p{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
